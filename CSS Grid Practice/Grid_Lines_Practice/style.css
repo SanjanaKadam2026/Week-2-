@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* Box 1 starts at column line 1
+   and ends at column line 3 */
+
+.box1 {
+    grid-column: 1 / 3;
+}
+

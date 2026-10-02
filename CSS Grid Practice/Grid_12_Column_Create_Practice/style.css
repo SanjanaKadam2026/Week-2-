@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+
+    /* Create 12 equal columns */
+    grid-template-columns: repeat(12, 1fr);
+
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+}
+

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+/* Nested Grid */
+
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.small-box {
+    background-color: lightgreen;
+    padding: 20px;
+}

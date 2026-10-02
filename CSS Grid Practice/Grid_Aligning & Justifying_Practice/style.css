@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 150px);
+
+    gap: 20px;
+
+    /* Horizontal alignment */
+    justify-items: center;
+
+    /* Vertical alignment */
+    align-items: center;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 30px;
+}
